@@ -30,8 +30,8 @@ export const Home = () => {
                 <div>
                     {/*<ButtonUniversal title={'Hire Me'} href={'contacts'} />*/}
                     {/*<ButtonUniversal title={'About Me'} href={'about'} />*/}
-                    <ButtonUniversal title={'About Me'} href={'https://lily1215z.github.io/about/About.tsx'} />
-                    <ButtonUniversal title={'Hire Me'} href={'https://lily1215z.github.io/about/Contacts.tsx'} />
+                    <ButtonUniversal title={'About Me'} href={'https://lily1215z.github.io/about'} />
+                    <ButtonUniversal title={'Hire Me'} href={'https://lily1215z.github.io/contacts'} />
 
                 </div>
             </div>
