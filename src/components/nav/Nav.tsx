@@ -12,7 +12,7 @@ export const Nav = () => {
     //     }
     // }
     // const location = useLocation()
-                                        //fill dont work
+                                        //fill dont worky
     return (
         <nav className={nav.inner}>
             <ul className={nav.list}>

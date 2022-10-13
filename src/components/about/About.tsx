@@ -26,10 +26,9 @@ export const About = () => {
                         </h3>
                         <p className={home.text}>
                             I completed a wonderful React course at the IT-Incubator. In this course, I mastered such
-                            tools as React, TypeScript, Redux, JS, HTML5 & CSS3, Material-UI. Ready for new challenges.
-                            I am Ukrainian, from the wonderful city of Odessa. But at the moment I live in Malaga,
-                            Spain. I am considering offers throughout Spain. Ready to move throughout Spain. I have a
-                            work permit. Open to your suggestions.
+                            tools as React, TypeScript, Redux, JS, HTML5 & CSS3, JavaScript, AXIOS, Git, Thunk, Rest API,
+                            Redux ToolKit. Ready for new challenges. I am Ukrainian, from the wonderful city of Odessa.
+                            But at the moment I live in Malaga, Spain. I have a work permit. Open to your suggestions.
                         </p>
                         <div>
                             <h3 className={about.name}>Personal <span className={about.style_text}>Informations</span>
@@ -40,7 +39,7 @@ export const About = () => {
                                         className={about.style_text_white}>Mysliatska</span></li>
                                     <li className={home.text}>Last Name : <span
                                         className={about.style_text_white}>Svitlana</span></li>
-                                    <li className={home.text}>Address : <span className={about.style_text_white}>Calle Mariblanca, 19. 29012</span>
+                                    <li className={home.text}>Address : <span className={about.style_text_white}>Calle Marmoles, 28. 29007</span>
                                     </li>
                                     <li className={home.text}>From : <span className={about.style_text_white}>Malaga, Spain</span>
                                     </li>
@@ -51,8 +50,8 @@ export const About = () => {
                                     <li className={home.text}>Phone : <span className={about.style_text}>(+34) 624-89-10-54</span>
                                     </li>
                                     <li className={home.text}>Age : <span
-                                        className={about.style_text_white}>37 years</span></li>
-                                    <li className={home.text}>Languages : <span className={about.style_text_white}>English, Ukrainian, Russian</span>
+                                        className={about.style_text_white}>28 years</span></li>
+                                    <li className={home.text}>Languages : <span className={about.style_text_white}>English, Ukrainian, Russian, Spain</span>
                                     </li>
                                 </ul>
                             </div>
@@ -79,16 +78,16 @@ export const About = () => {
                                 humanitarian-economic open university
                             </div>
                             <span
-                                className={about.style_text_white}>Speciality: organization  management / 2006 – 2009</span>
+                                className={about.style_text_white}>Speciality: organization  management / 2013 – 2016</span>
                             <div className={`${about.style_text} ${about.title_educ_bulit}`}>Odessa state colledge
                                 economics and management of trade
                             </div>
-                            <span className={about.style_text_white}>Speciality:  merchandiser and commercial activities / 2002 – 2004</span>
+                            <span className={about.style_text_white}>Speciality:  merchandiser and commercial activities / 2011 – 2013</span>
                         </div>
                         <ul className={about.box_educ}>
                             <li className={about.title_educ}>Additional education</li>
                             <li className={`${about.style_text} ${about.title_educ_bulit}`}>Advertising design, Adobe
-                                Photoshop in 'Design Class' / 2011
+                                Photoshop in 'Design Class' / 2016
                             </li>
                             <li className={`${about.style_text} ${about.title_educ_bulit}`}>Front End Basic in 'Hillel'
                                 / 2020
@@ -97,12 +96,12 @@ export const About = () => {
                                 to 1' / 2020
                             </li>
                             <li className={`${about.style_text} ${about.title_educ_bulit}`}>Front End Pro in 'Hillel' /
-                                2020
+                                2021
                             </li>
                             <li className={`${about.style_text} ${about.title_educ_bulit}`}>Spanish language course /
                                 now
                             </li>
-                            <li className={`${about.style_text} ${about.title_educ_bulit}`}>It-Incubator / 2022</li>
+                            <li className={`${about.style_text} ${about.title_educ_bulit}`}>It-Incubator / 2022 - now</li>
                         </ul>
                     </div>
 
@@ -110,7 +109,7 @@ export const About = () => {
                         <h4 className={`${about.title_educ} ${about.experience}`}>Experience</h4>
                         <div className={about.box_educ}>
                             <div className={`${about.style_text} ${about.title_educ_bulit}`}>Social Network</div>
-                            <div className={about.style_text_white}>Nov 2021 - in progress</div>
+                            <div className={about.style_text_white}>Jan 2022 - in progress</div>
                             <p className={home.text}>
                                 Used technologies: React/Redux/TypeScript/Redux-thunk/React-router-dom
                                 v6/React-hook-form/Axios/Jest; Social network app with using react hooks, routing, lazy

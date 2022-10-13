@@ -23,7 +23,7 @@ export const SocialNetworkSvgSelector = (props: SocialNetworkSVGSelectorTypeProp
        case 'telegram':
            return (
                <a
-                   href={'???'}
+                   href={'https://t.me/lily1215'}
                    target="_blank"
                    className={app.icon}>
                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@ export const SocialNetworkSvgSelector = (props: SocialNetworkSVGSelectorTypeProp
        case 'linkedin':
            return (
                <a
-                   href={'https://www.linkedin.com/in/svitlana-m-b5469b234/'}
+                   href={'https://www.linkedin.com/in/svitlana-m-ba57441a7/'}
                    target="_blank"
                    className={app.icon}>
                    <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,7 +65,7 @@ export const SocialNetworkSvgSelector = (props: SocialNetworkSVGSelectorTypeProp
        case 'whatsapp':
            return (
                <a
-                   href={'???'}
+                   href={'https://wa.me/+34624891054'}
                    target="_blank"
                    className={app.icon}>
                    <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +91,7 @@ export const SocialNetworkSvgSelector = (props: SocialNetworkSVGSelectorTypeProp
        case 'viber':
            return (
                <a
-                   href={'???'}
+                   href={'viber://chat?number=%2B380969724353'}
                    target="_blank"
                    className={app.icon}>
                    <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">

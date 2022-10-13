@@ -21,6 +21,12 @@ export const Skills = () => {
         ['Avocode', '90'],
         ['Photoshop', '80'],
         ['Figma', '80'],
+        ['ECMA Script(es6)', '70'],
+        ['Storybook', '60'],
+        ['Redux ToolKit', '50'],
+        ['Rest API', '50'],
+        ['Thunk', '60'],
+        ['AXIOS', '60']
     ]
     let res = arr.map((t, i) => {
             return (

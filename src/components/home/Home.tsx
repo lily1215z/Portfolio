@@ -5,6 +5,7 @@ import app from '../../App.module.css'
 import {SocialSvgComponent} from "../SocialSVGComponent";
 import {ButtonUniversal} from "../ButtonUniversal";
 
+
 export const Home = () => {
     return (
         <div className={home.wrapper}>
@@ -20,14 +21,16 @@ export const Home = () => {
                 <span className={home.job}>Web developer</span>
                 <SocialSvgComponent />
                 <p className={`${home.text} ${home.text_home}`}>
-                    Recently,   I changed  the vector of my life. I  began to study  the Front - End developer.  It  turned out
-                    to be  very  exciting. I  want to develop and this area provides such opportunities. Now I
-                    am in the first stage, but I am efficient and
-                    trained. I am ready to work in a team to achieve  a common goal.
+                    Ambitious and motivated Front-End Developer looking for a
+                    job. I prefer to work in a team, because I believe that sharing
+                    ideas is the solution to any problem. By the way, it can
+                    increase my professional growth. In addition, in my spare
+                    time I learn English and Spanish to reach the highest level.
                 </p>
                 <div>
-                    <ButtonUniversal title={'Hire Me'} />
-                    <ButtonUniversal title={'About Me'} />
+                    <ButtonUniversal title={'Hire Me'} href={'contacts'} />
+                    <ButtonUniversal title={'About Me'} href={'about'} />
+                    {/*<ButtonUniversal title={'About Me'} href={'https://lily1215z.github.io/about'} />*/}
 
                 </div>
             </div>

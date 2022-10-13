@@ -26,7 +26,7 @@ export const Contacts = () => {
                         <input className={`${contacts.input} ${contacts.message}`} placeholder={'Subject'}/>
                         <textarea className={contacts.text} placeholder={'Message'}></textarea>
                         <div className={contacts.btn}>
-                            <ButtonUniversal title={'Send Message'}/>
+                            <ButtonUniversal title={'Send Message'} href={'???'}/>
                         </div>
 
                     </form>
@@ -44,7 +44,7 @@ export const Contacts = () => {
                         </li>
                         <li className={`${contacts.item} ${contacts.item_location}`}>
                             <div className={contacts.title_color}>Location</div>
-                            <div className={about.style_text}>29012, Calle Marmoles. Spain, Malaga</div>
+                            <div className={about.style_text}>29007, Calle Marmoles. Spain, Malaga</div>
                         </li>
                         <li className={`${contacts.item} ${contacts.item_call}`}>
                             <div className={contacts.title_color}>Call Me</div>
