@@ -11,7 +11,7 @@ import {ModalSuccessWindow} from '../modalWindows/ModalSuccessWindow';
 import modal from '../modalWindows/ModalSuccessWindow.module.css'
 
 export const Contacts = () => {
-    const [modalSuccess, setModalSuccess] = useState(false);
+    // const [modalSuccess, setModalSuccess] = useState(false);
     const form: any = useRef();
 
     const sendEmail = (e: any) => {
@@ -19,10 +19,10 @@ export const Contacts = () => {
 
         emailjs.sendForm('service_4rckvrl', 'template_alqt1da', form.current, '5P2r9ws9F8l4LYYq8')
             .then((result) => {
-                // alert(result.text)
+                alert(result.text)
                 // <ModalSuccessWindow res={result.text} />
                 // <div className={modal.wrapper}>{result.text}</div>
-                setModalSuccess(true)
+                // setModalSuccess(true)
             }, (error) => {
                 alert(error.text);
             });
@@ -31,8 +31,7 @@ export const Contacts = () => {
 
     return (
         <>
-            {/*{modalSuccess ? <div className={contacts.modal_success}>{'success'}</div> : 'error'}*/}
-            {modalSuccess && <div className={contacts.modal_success}>{'success'}</div>}
+            {/*{modalSuccess && <div className={contacts.modal_success}>{'success'}</div>}*/}
             <div className={contacts.title_box}>
                 <span className={home.text}>Feel Free To Contact Me Anytimes</span>
                 <h2 className={`${app.title} ${contacts.title}`}>My<span className={about.style_text}> Contacts</span>
