@@ -7,11 +7,10 @@ import {ButtonUniversal} from '../ButtonUniversal';
 import {SocialSvgComponent} from '../SocialSVGComponent';
 import {Maps} from '../Maps';
 import emailjs from '@emailjs/browser';
-import {ModalSuccessWindow} from '../modalWindows/ModalSuccessWindow';
-import modal from '../modalWindows/ModalSuccessWindow.module.css'
 
 export const Contacts = () => {
-    // const [modalSuccess, setModalSuccess] = useState(false);
+    const [modalSuccess, setModalSuccess] = useState(false);
+    const [modalError, setModalError] = useState(false);
     const form: any = useRef();
 
     const sendEmail = (e: any) => {
@@ -19,19 +18,24 @@ export const Contacts = () => {
 
         emailjs.sendForm('service_4rckvrl', 'template_alqt1da', form.current, '5P2r9ws9F8l4LYYq8')
             .then((result) => {
-                alert(result.text)
-                // <ModalSuccessWindow res={result.text} />
-                // <div className={modal.wrapper}>{result.text}</div>
-                // setModalSuccess(true)
+                // alert(result.text);
+                setModalSuccess(true)
             }, (error) => {
-                alert(error.text);
+                // alert(error.text);
+                setModalError(true)
             });
         e.target.reset()
     };
 
+    setTimeout(() => {
+        setModalSuccess(false)
+        setModalError(false)
+    }, 4000);
+
     return (
         <>
-            {/*{modalSuccess && <div className={contacts.modal_success}>{'success'}</div>}*/}
+            {modalSuccess && <div className={contacts.modal_success}>{'Your message has been successfully sent!'}</div>}
+            {modalError && <div className={contacts.modal_error}>{'something went wrong. :(('}</div>}
             <div className={contacts.title_box}>
                 <span className={home.text}>Feel Free To Contact Me Anytimes</span>
                 <h2 className={`${app.title} ${contacts.title}`}>My<span className={about.style_text}> Contacts</span>
@@ -45,20 +49,24 @@ export const Contacts = () => {
                             <input
                                 name={'name'}
                                 className={`${contacts.input} ${contacts.input_size}`}
-                                placeholder={'Name'}/>
+                                placeholder={'Name'}
+                                required/>
                             <input
                                 name={'email'}
                                 className={`${contacts.input} ${contacts.input_size}`}
-                                placeholder={'Email'}/>
+                                placeholder={'Email'}
+                                required/>
                         </div>
                         <input
                             name={'subject'}
                             className={`${contacts.input} ${contacts.message}`}
-                            placeholder={'Subject'}/>
+                            placeholder={'Subject'}
+                            required/>
                         <textarea
                             name={'message'}
                             className={contacts.text}
-                            placeholder={'Message'}></textarea>
+                            placeholder={'Message'}
+                            required></textarea>
                         <div className={contacts.btn}>
                             <ButtonUniversal title={'Send Message'} href={'???'}/>
                         </div>

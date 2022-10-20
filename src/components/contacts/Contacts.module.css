@@ -125,7 +125,7 @@
     left: -50px;
 }
 
-.item + .item{
+.item + .item {
     margin-top: 25px;
 }
 
@@ -138,29 +138,42 @@
         display: block;
     }
 }
+
 @media screen and (max-width: 400px) {
     .contact_info,
     .contact_me {
         padding: 15px 10px;
     }
+
     .contact_info {
         padding-bottom: 0;
     }
 }
 
-/*.modal_success {*/
-/*    width: 200px;*/
-/*    height: 200px;*/
-/*    border: 1px solid red;*/
-/*    color: red;*/
-/*    position: absolute;*/
-/*    background-color: #555555;*/
-/*}*/
-/*.modal_error {*/
-/*    width: 200px;*/
-/*    height: 200px;*/
-/*    border: 1px solid #066c0c;*/
-/*    color: #5aab0e;*/
-/*    position: absolute;*/
-/*    background-color: #423ebe;*/
-/*}*/
+.modal_success {
+    width: 100%;
+    border: 1px solid #066c0c;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1d8c24;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 700;
+}
+.modal_error {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #f62121;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 700;
+}
