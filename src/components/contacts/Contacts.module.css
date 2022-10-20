@@ -147,3 +147,20 @@
         padding-bottom: 0;
     }
 }
+
+.modal_success {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    color: red;
+    position: absolute;
+    background-color: #555555;
+}
+.modal_error {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #066c0c;
+    color: #5aab0e;
+    position: absolute;
+    background-color: #423ebe;
+}

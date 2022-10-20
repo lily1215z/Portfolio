@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/modalWindows/ModalSuccessWindow.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalWindows/ModalSuccessWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/camasutra/portfolio",
+    "last_opened_file_path": "D:/camasutra/formic-login_16",
     "nodejs_package_manager_path": "yarn",
     "ts.external.directory.path": "D:\\camasutra\\portfolio\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -90,7 +92,7 @@
       <workItem from="1666041555593" duration="900000" />
       <workItem from="1666082163404" duration="1185000" />
       <workItem from="1666123374441" duration="12000" />
-      <workItem from="1666264300896" duration="8204000" />
+      <workItem from="1666264300896" duration="12767000" />
     </task>
     <servers />
   </component>
