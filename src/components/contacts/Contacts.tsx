@@ -1,4 +1,4 @@
-import React, {useMemo} from 'react';
+import React, {useMemo, useRef} from 'react';
 import home from "../home/Home.module.css";
 import app from "../../App.module.css";
 import about from "../about/About.module.css";
@@ -6,8 +6,23 @@ import contacts from './Contacts.module.css'
 import {ButtonUniversal} from "../ButtonUniversal";
 import {SocialSvgComponent} from "../SocialSVGComponent";
 import {Maps} from "../Maps";
+import emailjs from '@emailjs/browser';
 
 export const Contacts = () => {
+    const form: any = useRef();
+
+    const sendEmail = (e: any) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_4rckvrl', 'template_alqt1da', form.current, 'Y5P2r9ws9F8l4LYYq8')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
+    };
+
     return (
         <>
             <div className={contacts.title_box}>
@@ -18,13 +33,25 @@ export const Contacts = () => {
             <div className={contacts.block}>
                 <div className={contacts.contact_me}>
                     <h3 className={contacts.subtitle}>Contact Me</h3>
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className={contacts.inner}>
-                            <input className={`${contacts.input} ${contacts.input_size}`} placeholder={'Name'}/>
-                            <input className={`${contacts.input} ${contacts.input_size}`} placeholder={'Email'}/>
+                            <input
+                                name={'name'}
+                                className={`${contacts.input} ${contacts.input_size}`}
+                                placeholder={'Name'}/>
+                            <input
+                                name={'email'}
+                                className={`${contacts.input} ${contacts.input_size}`}
+                                placeholder={'Email'}/>
                         </div>
-                        <input className={`${contacts.input} ${contacts.message}`} placeholder={'Subject'}/>
-                        <textarea className={contacts.text} placeholder={'Message'}></textarea>
+                        <input
+                            name={'subject'}
+                            className={`${contacts.input} ${contacts.message}`}
+                            placeholder={'Subject'}/>
+                        <textarea
+                            name={'message'}
+                            className={contacts.text}
+                            placeholder={'Message'}></textarea>
                         <div className={contacts.btn}>
                             <ButtonUniversal title={'Send Message'} href={'???'}/>
                         </div>
