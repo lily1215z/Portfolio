@@ -1,11 +1,11 @@
 import React, {useMemo, useRef} from 'react';
-import home from "../home/Home.module.css";
-import app from "../../App.module.css";
-import about from "../about/About.module.css";
+import home from '../home/Home.module.css';
+import app from '../../App.module.css';
+import about from '../about/About.module.css';
 import contacts from './Contacts.module.css'
-import {ButtonUniversal} from "../ButtonUniversal";
-import {SocialSvgComponent} from "../SocialSVGComponent";
-import {Maps} from "../Maps";
+import {ButtonUniversal} from '../ButtonUniversal';
+import {SocialSvgComponent} from '../SocialSVGComponent';
+import {Maps} from '../Maps';
 import emailjs from '@emailjs/browser';
 
 export const Contacts = () => {
@@ -14,11 +14,11 @@ export const Contacts = () => {
     const sendEmail = (e: any) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_4rckvrl', 'template_alqt1da', form.current, 'Y5P2r9ws9F8l4LYYq8')
+        emailjs.sendForm('service_4rckvrl', 'template_alqt1da', form.current, '5P2r9ws9F8l4LYYq8')
             .then((result) => {
-                console.log(result.text);
+                alert(result.text)
             }, (error) => {
-                console.log(error.text);
+                alert(error.text);
             });
         e.target.reset()
     };
