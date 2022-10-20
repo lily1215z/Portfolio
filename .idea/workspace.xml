@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/my_photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/my_photo_about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/my_photo_about2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/my_photo_about3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,17 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/camasutra/portfolio&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\camasutra\\portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/camasutra/portfolio",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\camasutra\\portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\camasutra\portfolio\src\components\portfolio\Portfolio.tsx" />
@@ -83,7 +91,12 @@
       <workItem from="1660483403659" duration="1813000" />
       <workItem from="1664118675433" duration="4013000" />
       <workItem from="1665562686783" duration="673000" />
-      <workItem from="1665646731267" duration="3416000" />
+      <workItem from="1665646731267" duration="5069000" />
+      <workItem from="1666011378184" duration="3405000" />
+      <workItem from="1666041555593" duration="900000" />
+      <workItem from="1666082163404" duration="1185000" />
+      <workItem from="1666123374441" duration="12000" />
+      <workItem from="1666264300896" duration="830000" />
     </task>
     <servers />
   </component>

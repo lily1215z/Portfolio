@@ -19,6 +19,7 @@ function App() {
                     <Route path='skills' element={<Skills />} />
                     <Route path='portfolio' element={<Portfolio />} />
                     <Route path='contacts' element={<Contacts />} />
+                    {/*<Route path='*' element={<div>Page not found</div>} />*/}
                 </Routes>
         </div>
     );

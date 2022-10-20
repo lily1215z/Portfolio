@@ -13,13 +13,17 @@ export const Nav = () => {
     // }
     // const location = useLocation()
                                         //fill dont worky
+    const color = {
+        color: '#ff651c'
+    }
+
     return (
         <nav className={nav.inner}>
             <ul className={nav.list}>
                 <li className={nav.item}>
                     <span className={nav.text_hover}>Home</span>
-                    <NavLink to='/' style={({isActive}) => ({stroke: isActive ? '#ff651c' : ''})}>
-                        {/*<NavLink to='/' className={({ isActive }) =>(isActive ? " active-link" : "")}>*/}
+                    <NavLink to='/' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
+                        {/*<NavLink to='/' className={({ isActive }) =>isActive ? " active-link" : ""}>*/}
                         <div className={home.svg}>
                             <NavSvgSelector icon={'house'}/>
                         </div>
@@ -27,7 +31,7 @@ export const Nav = () => {
                 </li>
                 <li className={nav.item}>
                     <span className={nav.text_hover}>About</span>
-                    <NavLink to='/about' style={({isActive}) => ({stroke: isActive ? '#ff651c' : ''})}>
+                    <NavLink to='/about' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
                         <div className={home.svg}>
                             <NavSvgSelector icon={'about'}/>
                         </div>
@@ -35,7 +39,7 @@ export const Nav = () => {
                 </li>
                 <li className={nav.item}>
                     <span className={nav.text_hover}>Skills</span>
-                    <NavLink to='/skills' style={({isActive}) => ({stroke: isActive ? '#ff651c' : ''})}>
+                    <NavLink to='/skills' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
                         <div className={home.svg}>
                             <NavSvgSelector icon={'skills'}/>
                         </div>
@@ -43,7 +47,7 @@ export const Nav = () => {
                 </li>
                 <li className={nav.item}>
                     <span className={nav.text_hover}>Portfolio</span>
-                    <NavLink to='/portfolio' style={({isActive}) => ({stroke: isActive ? '#ff651c' : ''})}>
+                    <NavLink to='/portfolio' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
                         <div className={home.svg}>
                             <NavSvgSelector icon={'portfolio'}/>
                         </div>
@@ -51,7 +55,7 @@ export const Nav = () => {
                 </li>
                 <li className={nav.item}>
                     <span className={nav.text_hover}>Contacts</span>
-                    <NavLink to='/contacts' style={({isActive}) => ({stroke: isActive ? '#ff651c' : ''})}>
+                    <NavLink to='/contacts' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
                         <div className={home.svg}>
                             <NavSvgSelector icon={'contacts'}/>
                         </div>
