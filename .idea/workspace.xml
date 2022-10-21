@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="added btn_back" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,8 +88,16 @@
       <workItem from="1666123374441" duration="12000" />
       <workItem from="1666264300896" duration="17351000" />
       <workItem from="1666299164178" duration="523000" />
-      <workItem from="1666339509221" duration="11173000" />
+      <workItem from="1666339509221" duration="11964000" />
     </task>
+    <task id="LOCAL-00001" summary="added btn_back">
+      <created>1666370033394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666370033394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added btn_back" />
+    <option name="LAST_COMMIT_MESSAGE" value="added btn_back" />
   </component>
 </project>

@@ -28,7 +28,7 @@ export const Contacts = () => {
     };
 
     setTimeout(() => {
-        // setModalSuccess(false)
+        setModalSuccess(false)
         setModalError(false)
     }, 4000);
 
