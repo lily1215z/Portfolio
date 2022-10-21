@@ -3,7 +3,7 @@
     z-index: 5;
     top: 70px;
     border: 1px solid #ff651c;
-    box-shadow: 0px 0px 12px 2px #ff651c;
+    box-shadow: 0 0 12px 2px #ff651c;
     max-width: 900px;
     width: 100%;
     margin: 0 auto 150px auto;
@@ -67,6 +67,10 @@
 
 .icon svg path:hover {
     fill: #ff651c;
+}
+.btn_back {
+    position: relative;
+    top: -20px;
 }
 
 @media screen and (max-width: 1100px) {

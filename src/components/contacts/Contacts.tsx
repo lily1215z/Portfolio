@@ -28,7 +28,7 @@ export const Contacts = () => {
     };
 
     setTimeout(() => {
-        setModalSuccess(false)
+        // setModalSuccess(false)
         setModalError(false)
     }, 4000);
 
@@ -70,7 +70,6 @@ export const Contacts = () => {
                         <div className={contacts.btn}>
                             <ButtonUniversal title={'Send Message'} href={'???'}/>
                         </div>
-
                     </form>
                 </div>
 

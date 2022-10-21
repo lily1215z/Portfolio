@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalWindows/ModalSuccessWindow.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalWindows/ModalSuccessWindow.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +25,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/camasutra/formic-login_16",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "D:\\camasutra\\portfolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/camasutra/formic-login_16&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\camasutra\\portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\camasutra\portfolio\src\components\portfolio\Portfolio.tsx" />
@@ -92,7 +92,9 @@
       <workItem from="1666041555593" duration="900000" />
       <workItem from="1666082163404" duration="1185000" />
       <workItem from="1666123374441" duration="12000" />
-      <workItem from="1666264300896" duration="15986000" />
+      <workItem from="1666264300896" duration="17351000" />
+      <workItem from="1666299164178" duration="523000" />
+      <workItem from="1666339509221" duration="11173000" />
     </task>
     <servers />
   </component>
