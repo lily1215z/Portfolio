@@ -1,11 +1,28 @@
 import React from 'react';
 import about from './About.module.css'
 import my_photo_about from '../../images/my_photo_about1.jpg'
-import home from "../home/Home.module.css";
-import app from "../../App.module.css";
-import {SocialSvgComponent} from "../SocialSVGComponent";
+import home from '../home/Home.module.css';
+import app from '../../App.module.css';
+import {SocialSvgComponent} from '../SocialSVGComponent';
+// @ts-ignore
+import cv from "./cv.pdf";
 
 export const About = () => {
+
+    // const onButtonClick = () => {
+    //     fetch('cv.pdf').then(response => {
+    //         response.blob().then(blob => {
+    //             // Creating new object of PDF file
+    //             const fileURL = window.URL.createObjectURL(blob);
+    //             // Setting various property values
+    //             let alink = document.createElement('a');
+    //             alink.href = fileURL;
+    //             alink.download = 'cv.pdf';
+    //             alink.click();
+    //         })
+    //     })
+    // }
+
     return (
         <>
             <div className={home.wrapper}>
@@ -26,7 +43,8 @@ export const About = () => {
                         </h3>
                         <p className={home.text}>
                             I completed a wonderful React course at the IT-Incubator. In this course, I mastered such
-                            tools as React, TypeScript, Redux, JS, HTML5 & CSS3, JavaScript, AXIOS, Git, Thunk, Rest API,
+                            tools as React, TypeScript, Redux, JS, HTML5 & CSS3, JavaScript, AXIOS, Git, Thunk, Rest
+                            API,
                             Redux ToolKit. Ready for new challenges. I am Ukrainian, from the wonderful city of Odessa.
                             But at the moment I live in Malaga, Spain. I have a work permit. Open to your suggestions.
                         </p>
@@ -39,9 +57,9 @@ export const About = () => {
                                         className={about.style_text_white}>Mysliatska</span></li>
                                     <li className={home.text}>Last Name : <span
                                         className={about.style_text_white}>Svitlana</span></li>
-                                    <li className={home.text}>Address : <span className={about.style_text_white}>Calle Marmoles, 28. 29007</span>
-                                    </li>
-                                    <li className={home.text}>From : <span className={about.style_text_white}>Malaga, Spain</span>
+                                    {/*<li className={home.text}>Address : <span className={about.style_text_white}>Calle A.Blazquez, 4. 13002</span>*/}
+                                    {/*</li>*/}
+                                    <li className={home.text}>From : <span className={about.style_text_white}>Ciudad Real, Spain</span>
                                     </li>
                                 </ul>
                                 <ul className={about.list}>
@@ -49,17 +67,21 @@ export const About = () => {
                                         className={about.style_text}>svtlnlily@gmail.com</span></li>
                                     <li className={home.text}>Phone : <span className={about.style_text}>(+34) 624-89-10-54</span>
                                     </li>
-                                    <li className={home.text}>Age : <span
-                                        className={about.style_text_white}>28 years</span></li>
+                                    {/*<li className={home.text}>Age : <span*/}
+                                    {/*    className={about.style_text_white}>38 years</span></li>*/}
                                     <li className={home.text}>Languages : <span className={about.style_text_white}>English, Ukrainian, Russian, Spain</span>
                                     </li>
                                 </ul>
                             </div>
                             <div className={about.social}>
-                                {<SocialSvgComponent />}
+                                {<SocialSvgComponent/>}
                             </div>
-
+                            {/*<button onClick={onButtonClick}>Download my CV*/}
+                            {/*    /!*<a href={cv} download="lana_cv">Download my CV</a>*!/*/}
+                            {/*</button>*/}
+                                <a href={cv} download="lana_cv">Download my CV</a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -78,16 +100,16 @@ export const About = () => {
                                 humanitarian-economic open university
                             </div>
                             <span
-                                className={about.style_text_white}>Speciality: organization  management / 2013 – 2016</span>
+                                className={about.style_text_white}>Speciality: organization  management / 2006 – 2009</span>
                             <div className={`${about.style_text} ${about.title_educ_bulit}`}>Odessa state colledge
                                 economics and management of trade
                             </div>
-                            <span className={about.style_text_white}>Speciality:  merchandiser and commercial activities / 2011 – 2013</span>
+                            <span className={about.style_text_white}>Speciality:  merchandiser and commercial activities / 2002 – 2004</span>
                         </div>
                         <ul className={about.box_educ}>
                             <li className={about.title_educ}>Additional education</li>
                             <li className={`${about.style_text} ${about.title_educ_bulit}`}>Advertising design, Adobe
-                                Photoshop in 'Design Class' / 2016
+                                Photoshop in 'Design Class' / 2011
                             </li>
                             <li className={`${about.style_text} ${about.title_educ_bulit}`}>Front End Basic in 'Hillel'
                                 / 2020
@@ -101,7 +123,8 @@ export const About = () => {
                             <li className={`${about.style_text} ${about.title_educ_bulit}`}>Spanish language course /
                                 now
                             </li>
-                            <li className={`${about.style_text} ${about.title_educ_bulit}`}>It-Incubator / 2022 - now</li>
+                            <li className={`${about.style_text} ${about.title_educ_bulit}`}>It-Incubator / 2022 - now
+                            </li>
                         </ul>
                     </div>
 
@@ -121,7 +144,9 @@ export const About = () => {
                             <div className={`${about.style_text} ${about.title_educ_bulit}`}>Todolist</div>
                             <div className={about.style_text_white}>Jan 2022 - Apr 2022</div>
                             <p className={home.text}>
-                                Used technologies: React/Redux/Redux-Toolkit/React-router-dom v6/ Jest(Unit-Tests) /Storybook/Axios /Formik/Material UI; Todolist app created with react hooks, routing and redirects, material UI, REST api request/response flow, unit-tests and etc.
+                                Used technologies: React/Redux/Redux-Toolkit/React-router-dom v6/ Jest(Unit-Tests)
+                                /Storybook/Axios /Formik/Material UI; Todolist app created with react hooks, routing and
+                                redirects, material UI, REST api request/response flow, unit-tests and etc.
                             </p>
                         </div>
                     </div>

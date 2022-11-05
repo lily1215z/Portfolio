@@ -17,10 +17,10 @@ export const Portfolio = () => {
             <div>
                 <ul className={portfolio.list}>
                     <li className={portfolio.item}>
-                        <a className={portfolio.link} href={'#'}>TodoList</a>
+                        <a className={portfolio.link} href={'https://lily1215z.github.io/completeTodolist/'} target={'_blank'}>TodoList</a>
                     </li>
                     <li className={portfolio.item}>
-                        <a className={portfolio.link} href={'#'}>Social Network</a>
+                        <a className={portfolio.link} href={'https://lily1215z.github.io/samuray_TypeScript/'} target={'_blank'}>Social Network</a>
                     </li>
                     <li className={portfolio.item}>
                         <a className={portfolio.link} href={'#'}>Other Project</a>

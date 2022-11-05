@@ -11,6 +11,8 @@ import emailjs from '@emailjs/browser';
 export const Contacts = () => {
     const [modalSuccess, setModalSuccess] = useState(false);
     const [modalError, setModalError] = useState(false);
+    const [regex, setRegex] = useState('')
+
     const form: any = useRef();
 
     const sendEmail = (e: any) => {
@@ -32,6 +34,8 @@ export const Contacts = () => {
         setModalError(false)
     }, 4000);
 
+    // const emailRegex = /\w+@\w+\.\w+/;
+
     return (
         <>
             {modalSuccess && <div className={contacts.modal_success}>{'Your message has been successfully sent!'}</div>}
@@ -51,9 +55,13 @@ export const Contacts = () => {
                                 className={`${contacts.input} ${contacts.input_size}`}
                                 placeholder={'Name'}
                                 required/>
+                            {/*{ /\w+@\w+\.\w+/.test(regex) ? 'error' : '' }*/}
                             <input
+                                type='email'
                                 name={'email'}
                                 className={`${contacts.input} ${contacts.input_size}`}
+                                onChange={(e) => setRegex(e.currentTarget.value)}
+                                value={regex}
                                 placeholder={'Email'}
                                 required/>
                         </div>
@@ -85,7 +93,7 @@ export const Contacts = () => {
                         </li>
                         <li className={`${contacts.item} ${contacts.item_location}`}>
                             <div className={contacts.title_color}>Location</div>
-                            <div className={about.style_text}>29007, Calle Marmoles. Spain, Malaga</div>
+                            <div className={about.style_text}>13002, Calle Antonio Blazquez, Ciudad Real, Spain</div>
                         </li>
                         <li className={`${contacts.item} ${contacts.item_call}`}>
                             <div className={contacts.title_color}>Call Me</div>

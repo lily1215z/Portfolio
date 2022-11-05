@@ -12,7 +12,7 @@ export const Nav = () => {
     //     }
     // }
     // const location = useLocation()
-                                        //fill dont worky
+
     const color = {
         color: '#ff651c'
     }
