@@ -79,7 +79,10 @@ export const About = () => {
                             {/*<button onClick={onButtonClick}>Download my CV*/}
                             {/*    /!*<a href={cv} download="lana_cv">Download my CV</a>*!/*/}
                             {/*</button>*/}
-                                <a href={cv} download="lana_cv">Download my CV</a>
+                            <div className={about.download}>
+                                <a className={about.download_link} href={cv} download="lana_cv">Download my CV</a>
+                            </div>
+
                         </div>
 
                     </div>

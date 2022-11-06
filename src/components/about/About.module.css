@@ -138,6 +138,27 @@
     margin-bottom: 20px;
 }
 
+.download {
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+
+.download_link {
+    display: block;
+    position: relative;
+    color: #555;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.download_link:before {
+    content: url(/src/images/pdf.png);
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    transform: translateY(-50%);
+}
+
 @media screen and (max-width: 650px) {
     .block_resume {
         display: block;
