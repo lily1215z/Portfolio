@@ -110,7 +110,12 @@
     top: 9px;
     left: -50px;
 }
-
+.item_relocation:after {
+    content: url("/src/images/relocation.png");
+    position: absolute;
+    top: 9px;
+    left: -50px;
+}
 .item_call:after {
     content: url("/src/images/call.png");
     position: absolute;

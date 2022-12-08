@@ -1,12 +1,12 @@
-import React, {useMemo, useRef, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import home from '../home/Home.module.css';
 import app from '../../App.module.css';
 import about from '../about/About.module.css';
 import contacts from './Contacts.module.css'
 import {ButtonUniversal} from '../ButtonUniversal';
 import {SocialSvgComponent} from '../SocialSVGComponent';
-import {Maps} from '../Maps';
 import emailjs from '@emailjs/browser';
+import {JackInTheBox} from 'react-awesome-reveal';
 
 export const Contacts = () => {
     const [modalSuccess, setModalSuccess] = useState(false);
@@ -42,8 +42,11 @@ export const Contacts = () => {
             {modalError && <div className={contacts.modal_error}>{'something went wrong. :(('}</div>}
             <div className={contacts.title_box}>
                 <span className={home.text}>Feel Free To Contact Me Anytimes</span>
-                <h2 className={`${app.title} ${contacts.title}`}>My<span className={about.style_text}> Contacts</span>
-                </h2>
+                <JackInTheBox>
+                    <h2 className={`${app.title} ${contacts.title}`}>My<span className={about.style_text}> Contacts</span>
+                    </h2>
+                </JackInTheBox>
+
             </div>
             <div className={contacts.block}>
                 <div className={contacts.contact_me}>
@@ -95,6 +98,10 @@ export const Contacts = () => {
                             <div className={contacts.title_color}>Location</div>
                             <div className={about.style_text}>13002, Calle Antonio Blazquez, Ciudad Real, Spain</div>
                         </li>
+                        <li className={`${contacts.item} ${contacts.item_relocation}`}>
+                            <div className={contacts.title_color}>Relocation in</div>
+                            <div className={about.style_text}>Barcelona, Spain</div>
+                        </li>
                         <li className={`${contacts.item} ${contacts.item_call}`}>
                             <div className={contacts.title_color}>Call Me</div>
                             <div className={about.style_text}>+34 624 89 10 54</div>
@@ -108,12 +115,7 @@ export const Contacts = () => {
                         <SocialSvgComponent/>
                     </div>
 
-                    {/*<Maps />*/}
-                    {/*<Maps mapType={google.maps.MapTypeId.ROADMAP} mapTypeControl={true} />*/}
                 </div>
-            </div>
-            <div>
-                {/*const center = useMemo(() => ({lat: 36.721275, lng: -4.421399}), [])*/}
             </div>
         </>
     );

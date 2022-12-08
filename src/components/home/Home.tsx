@@ -4,21 +4,34 @@ import my_photo from '../../images/my_photo.jpg'
 import app from '../../App.module.css'
 import {SocialSvgComponent} from "../SocialSVGComponent";
 import {ButtonUniversal} from "../ButtonUniversal";
-
+import {JackInTheBox} from 'react-awesome-reveal';
+import ReactTypingEffect from 'react-typing-effect';
 
 export const Home = () => {
     return (
         <div className={home.wrapper}>
-            <div className={home.block_img}>
-                <img
-                    className={home.img}
-                    width={'250px'}
-                    src={my_photo}/>
-            </div>
+                <div className={home.block_img}>
+                    <img
+                        className={home.img}
+                        width={'250px'}
+                        src={my_photo}
+                        alt={'my main photo'}
+                    />
+                </div>
+
             <div className={home.inner}>
                 <span className={home.text}>Get To Know Me</span>
-                <h1 className={app.title}>Mysliatska Svitlana</h1>
-                <span className={home.job}>Web developer</span>
+                <JackInTheBox>
+                    <h1 className={app.title}>Mysliatska Svitlana</h1>
+                </JackInTheBox>
+
+                <span className={home.job}>
+                      <ReactTypingEffect
+                          text={'Web developer'}
+                      />
+                </span>
+
+                {/*<span className={home.job}>Web developer</span>*/}
                 <SocialSvgComponent />
                 <p className={`${home.text} ${home.text_home}`}>
                     Ambitious and motivated Front-End Developer looking for a

@@ -3,16 +3,16 @@ import skills from './Skills.module.css'
 import home from "../home/Home.module.css";
 import about from "../about/About.module.css";
 import app from "../../App.module.css";
+import {JackInTheBox} from 'react-awesome-reveal';
 
 export const Skills = () => {
     const arr = [
         ['JavaScript', '60'],
-        ['React', '50'],
+        ['React', '60'],
         ['React-router-domV6', '75'],
         ['Redux', '60'],
-        ['TypeScript', '50'],
+        ['TypeScript', '60'],
         ['Rest API', '40'],
-        ['Unit Test', '55'],
         ['GIT', '60'],
         ['БЭМ', '85'],
         ['HTML5', '85'],
@@ -24,8 +24,7 @@ export const Skills = () => {
         ['ECMA Script(es6)', '70'],
         ['Storybook', '60'],
         ['Redux ToolKit', '50'],
-        ['Rest API', '50'],
-        ['Thunk', '60'],
+        ['Thunk', '80'],
         ['AXIOS', '60']
     ]
     let res = arr.map((t, i) => {
@@ -45,8 +44,11 @@ export const Skills = () => {
             <div className={skills.wrapper}>
                 <div className={skills.title_skills}>
                     <span className={`${home.text}`}>My Level Of Knowledge In Some Tools</span>
-                    <h2 className={`${app.title} ${about.title}`}>My<span className={about.style_text}> Skills</span>
-                    </h2>
+                    <JackInTheBox>
+                        <h2 className={`${app.title} ${about.title}`}>My<span className={about.style_text}> Skills</span>
+                        </h2>
+                    </JackInTheBox>
+
                 </div>
 
                 <div className={skills.block}>

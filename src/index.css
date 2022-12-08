@@ -21,7 +21,7 @@ body:after {
   border-style: solid;
   border-width: 505px 303px 0 0;
   border-color: #989696 transparent transparent transparent;
-  z-index: -1;
+  z-index: 1;
 }
 body:before {
   content: '';
@@ -34,6 +34,7 @@ body:before {
   border-style: solid;
   border-width: 500px 300px 0 0;
   border-color: #ff651c transparent transparent transparent;
+  z-index: 2;
 }
 
 code {
@@ -67,6 +68,7 @@ h6 {
 /*dark-grey  #212121   */
 /*light-grey  #555555   */
 /*orange  #ff651c     */
+/*$darkGrey: #212121*/
 
 @media screen and (max-width: 400px) {
 body {
