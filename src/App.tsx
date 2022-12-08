@@ -23,9 +23,7 @@ function App() {
 
     return (
         <>
-            <div className={app.particle}>
-                <Particle />
-            </div>
+            <Particle/>
 
             <div className={app.wrapper}>
                 <Hinge>
