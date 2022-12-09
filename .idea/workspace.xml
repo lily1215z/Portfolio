@@ -1,33 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="correct css">
-      <change afterPath="$PROJECT_DIR$/src/style/variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonUniversal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonUniversal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Maps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Maps.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SocialSVGComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialSVGComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/Resume.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Particles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Particles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iconSVG/SocialNetworkSVGSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconSVG/SocialNetworkSVGSelector.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="added scss (variables)">
+      <change beforePath="$PROJECT_DIR$/src/components/Maps.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +104,7 @@
       <workItem from="1670494091305" duration="25494000" />
       <workItem from="1670537581534" duration="3817000" />
       <workItem from="1670541578222" duration="253000" />
-      <workItem from="1670597854781" duration="19261000" />
+      <workItem from="1670597854781" duration="19569000" />
     </task>
     <task id="LOCAL-00001" summary="added btn_back">
       <created>1666370033394</created>
@@ -187,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670541624433</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added scss (variables)">
+      <created>1670621621942</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670621621942</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +192,8 @@
     <MESSAGE value="correct adress, add btn uploade CV" />
     <MESSAGE value="add effects" />
     <MESSAGE value="correct css" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct css" />
+    <MESSAGE value="correct scss (variables)" />
+    <MESSAGE value="added scss (variables)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scss (variables)" />
   </component>
 </project>
