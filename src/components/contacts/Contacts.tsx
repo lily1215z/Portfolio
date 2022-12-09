@@ -1,8 +1,8 @@
 import React, {useRef, useState} from 'react';
-import home from '../home/Home.module.css';
-import app from '../../App.module.css';
-import about from '../about/About.module.css';
-import contacts from './Contacts.module.css'
+import home from '../home/Home.module.scss';
+import app from '../../App.module.scss';
+import about from '../about/About.module.scss';
+import contacts from './Contacts.module.scss'
 import {ButtonUniversal} from '../ButtonUniversal';
 import {SocialSvgComponent} from '../SocialSVGComponent';
 import emailjs from '@emailjs/browser';

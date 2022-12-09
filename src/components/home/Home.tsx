@@ -1,7 +1,7 @@
 import React from 'react';
-import home from './Home.module.css'
+import home from './Home.module.scss'
 import my_photo from '../../images/my_photo.jpg'
-import app from '../../App.module.css'
+import app from '../../App.module.scss'
 import {SocialSvgComponent} from "../SocialSVGComponent";
 import {ButtonUniversal} from "../ButtonUniversal";
 import {JackInTheBox} from 'react-awesome-reveal';
@@ -22,7 +22,7 @@ export const Home = () => {
             <div className={home.inner}>
                 <span className={home.text}>Get To Know Me</span>
                 <JackInTheBox>
-                    <h1 className={app.title}>Mysliatska Svitlana</h1>
+                    <h1 className={app.title}>Mysliatska SvitLana</h1>
                 </JackInTheBox>
 
                 <span className={home.job}>

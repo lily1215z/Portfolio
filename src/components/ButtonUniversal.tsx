@@ -1,6 +1,6 @@
 import React from 'react';
-import home from "./home/Home.module.css";
-import app from "../App.module.css";
+import home from "./home/Home.module.scss";
+import app from "../App.module.scss";
 
 type ButtonUniversalTypeProps = {
     title: string

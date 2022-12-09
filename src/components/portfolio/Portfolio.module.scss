@@ -1,0 +1,78 @@
+@import "../../style/variable.scss";
+
+.wrapper {
+  padding-bottom: 60px;
+
+  @media screen and (max-width: 780px) {
+    padding-bottom: 20px;
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url(/images/portfolio1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  @media screen and (max-width: 780px) {
+    display: block;
+  }
+
+  @media screen and (max-width: 400px) {
+    background-image: none;
+  }
+}
+
+.item {
+  height: 250px;
+  max-width: 200px;
+  width: 100%;
+  position: relative;
+  top: 100px;
+  background-color: $mainColorOpacity;
+  margin-bottom: 70px;
+
+  //.item + .item
+  & + .item {
+    margin-right: 20px;
+  }
+
+  @media screen and (max-width: 780px) {
+    top: 0;
+  }
+
+  @media screen and (max-width: 400px) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.link {
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  background-color: $bg500;
+  box-shadow: inset 2px 2px 24px 4px $bg900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 30px;
+  bottom: -15px;
+  font-size: 22px;
+  font-weight: 900;
+  border-radius: 10px;
+  color: $textColor;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $mainColor;
+    box-shadow: inset 2px 2px 24px 4px $bg500;
+    transform: rotate(5deg);
+  }
+}
+
+

@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {Routes, Route, useLocation, useNavigate} from 'react-router-dom';
-import './App.module.css';
-import app from './App.module.css'
+import './App.module.scss';
+import app from './App.module.scss'
 import {Nav} from './components/nav/Nav';
 import {About} from './components/about/About';
 import {Home} from './components/home/Home';
@@ -21,6 +21,7 @@ function App() {
         window.scrollTo(0, 0);
     }, [location.pathname]);
 
+
     return (
         <>
             <Particle/>
@@ -34,7 +35,9 @@ function App() {
                 <a href="#" onClick={goBack} className={app.btn_back}>
                     <img src={btn_back} alt={'btn back'}/>
                 </a>
-                <Nav/>
+
+                <Nav />
+
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="about" element={<About/>}/>

@@ -1,0 +1,92 @@
+@import "../../style/variable";
+
+.inner {
+    width: 80px;
+    padding: 50px 0;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    background-color: $bg500;
+    z-index: 99;
+
+    @media screen and (max-width: 1100px) {
+        max-width: 650px;
+        width: 100%;
+        padding: 20px 10px;
+        top: 0;
+        right: 50%;
+        transform: translateX(50%);
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 20px;
+        border: 1px solid $mainColor;
+    }
+}
+
+.item {
+    position: relative;
+
+    //.item + .item
+    & + .item {
+        margin-top: 20px;
+
+        @media screen and (max-width: 1100px) {
+            margin-top: 0;
+        }
+    }
+
+    //.item:hover .text_hover
+    &:hover .text_hover {
+        display: block;
+
+        @media screen and (max-width: 1100px) {
+            display: none;
+        }
+    }
+}
+
+.text_hover {
+    position: absolute;
+    top: 7px;
+    left: -80px;
+    display: none;
+    width: 70px;
+    background-color: $mainColor;
+    font-size: 14px;
+    color: $textColor;
+    font-weight: 600;
+    padding: 9px 2px;
+    border-radius: 5px;
+
+    //.text_hover:after
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -9px;
+        transform: translateY(-50%);
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent $mainColor;
+
+        @media screen and (max-width: 1100px) {
+            content: none;
+        }
+    }
+}
+
+.list {
+    @media screen and (max-width: 1100px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+

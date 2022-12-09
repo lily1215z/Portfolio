@@ -1,8 +1,8 @@
 import React from 'react';
-import about from './About.module.css'
+import about from './About.module.scss'
 import my_photo_about from '../../images/my_photo_about1.jpg'
-import home from '../home/Home.module.css';
-import app from '../../App.module.css';
+import home from '../home/Home.module.scss';
+import app from '../../App.module.scss';
 import {SocialSvgComponent} from '../SocialSVGComponent';
 // @ts-ignore
 import cv from "./cv.pdf";

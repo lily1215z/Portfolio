@@ -1,6 +1,6 @@
 import React from 'react';
-import nav from './Nav.module.css'
-import home from "../home/Home.module.css";
+import nav from './Nav.module.scss'
+import home from "../home/Home.module.scss";
 import {NavSvgSelector} from "../iconSVG/NavSVGSelector";
 import {NavLink} from 'react-router-dom';
 

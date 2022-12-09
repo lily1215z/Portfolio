@@ -1,0 +1,21 @@
+//variable
+
+$textColor: #ffffff;
+$mainColor: #ff651c;
+$mainColorOpacity: rgba(255, 101, 28, 0.5);
+
+//black shadows
+$bg100: #989696;
+$bg200: #555555;
+$bg500: #212121;
+$bg600: rgb(19, 22, 37); //#131625
+$bg900: #000000;
+
+$sendSuccessBg100: #1d8c24;
+$sendSuccess200: #066c0c;
+$sendError: #f62121;
+
+//если получится опрокинуть переменную с SCSS в компоненту
+:export {
+  mainСolor: $mainColor;
+}

@@ -1,12 +1,12 @@
 import React from 'react';
-import skills from './Skills.module.css'
-import home from "../home/Home.module.css";
-import about from "../about/About.module.css";
-import app from "../../App.module.css";
+import skills from './Skills.module.scss'
+import home from '../home/Home.module.scss';
+import about from '../about/About.module.scss';
+import app from '../../App.module.scss';
 import {JackInTheBox} from 'react-awesome-reveal';
 
 export const Skills = () => {
-    const arr = [
+    const skillsArr = [
         ['JavaScript', '60'],
         ['React', '60'],
         ['React-router-domV6', '75'],
@@ -27,33 +27,32 @@ export const Skills = () => {
         ['Thunk', '80'],
         ['AXIOS', '60']
     ]
-    let res = arr.map((t, i) => {
-            return (
-                <div key={i} className={skills.block_bar}>
-                    <div className={skills.title}>{t[0]}</div>
-                    <div className={skills.progressbar}>
-                        <span style={{width: `${t[1]}%`}} className={skills.span}></span>
-                        <span style={{left: `${t[1]}%`}} className={skills.percent}>{t[1]}%</span>
-                    </div>
+
+    const mySkills = skillsArr.map((t, i) => {
+        return (
+            <div key={i} className={skills.block_bar}>
+                <div className={skills.title}>{t[0]}</div>
+                <div className={skills.progressbar}>
+                    <span style={{width: `${t[1]}%`}} className={skills.progress_line}></span>
+                    <span style={{left: `${t[1]}%`}} className={skills.percent}>{t[1]}%</span>
                 </div>
-            )
+            </div>
+        )
     })
 
     return (
         <>
-            <div className={skills.wrapper}>
-                <div className={skills.title_skills}>
-                    <span className={`${home.text}`}>My Level Of Knowledge In Some Tools</span>
-                    <JackInTheBox>
-                        <h2 className={`${app.title} ${about.title}`}>My<span className={about.style_text}> Skills</span>
-                        </h2>
-                    </JackInTheBox>
+            <div className={skills.title_skills}>
+                <span className={`${home.text}`}>My Level Of Knowledge In Some Tools</span>
+                <JackInTheBox>
+                    <h2 className={`${app.title} ${about.title}`}>My<span className={about.style_text}> Skills</span>
+                    </h2>
+                </JackInTheBox>
 
-                </div>
+            </div>
 
-                <div className={skills.block}>
-                    {res}
-                </div>
+            <div className={skills.block}>
+                {mySkills}
             </div>
         </>
     );

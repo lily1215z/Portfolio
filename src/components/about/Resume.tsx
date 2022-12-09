@@ -1,8 +1,8 @@
 import React from 'react';
-import about from './About.module.css';
-import home from '../home/Home.module.css';
+import about from './About.module.scss';
+import home from '../home/Home.module.scss';
 import {JackInTheBox} from 'react-awesome-reveal';
-import app from '../../App.module.css';
+import app from '../../App.module.scss';
 
 export const Resume = () => {
     return (

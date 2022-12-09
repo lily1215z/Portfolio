@@ -1,5 +1,5 @@
 import React from 'react';
-import home from "./home/Home.module.css";
+import home from "./home/Home.module.scss";
 import {SocialNetworkSvgSelector} from "./iconSVG/SocialNetworkSVGSelector";
 
 export const SocialSvgComponent = () => {
