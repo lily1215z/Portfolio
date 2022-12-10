@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="added scss (mixins)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="added bg style" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,17 +19,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/camasutra/portfolio",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "D:\\camasutra\\portfolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/camasutra/portfolio&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\camasutra\\portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\camasutra\portfolio\src\components\portfolio\Portfolio.tsx" />
@@ -107,7 +103,7 @@
       <workItem from="1670537581534" duration="3817000" />
       <workItem from="1670541578222" duration="253000" />
       <workItem from="1670597854781" duration="21393000" />
-      <workItem from="1670679479644" duration="7480000" />
+      <workItem from="1670679479644" duration="7601000" />
     </task>
     <task id="LOCAL-00001" summary="added btn_back">
       <created>1666370033394</created>
@@ -193,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670685219058</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added bg style">
+      <created>1670687100799</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670687100799</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +222,7 @@
     <MESSAGE value="correct scss (variables)" />
     <MESSAGE value="added scss (variables)" />
     <MESSAGE value="added scss (mixins)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added scss (mixins)" />
+    <MESSAGE value="added bg style" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bg style" />
   </component>
 </project>
