@@ -13,7 +13,6 @@
   @include flex(space-around);
   flex-wrap: wrap;
   @include bg(contain, top center);
-  background-image: url(/images/portfolio1.png);
 
   @media screen and (max-width: 780px) {
     display: block;

@@ -5,6 +5,7 @@ import app from '../../App.module.scss';
 import about from '../about/About.module.scss';
 import portfolio from './Portfolio.module.scss'
 import {JackInTheBox} from 'react-awesome-reveal';
+import bgPhotoText from '../../images/portfolio1.png';
 
 export const Portfolio = () => {
     const portfolioData = [
@@ -21,18 +22,22 @@ export const Portfolio = () => {
             title: 'Robin.W'
         },
         {
-            href: 'https://lily1215z.github.io/completeTodolist/',
+            href: '',
             title: 'Other project'
         },
         {
-            href: 'https://lily1215z.github.io/samuray_TypeScript/',
+            href: '',
             title: 'Other project 2'
         },
         {
-            href: 'http://i9574282.beget.tech',
+            href: '',
             title: 'Other project 3'
         }
     ]
+
+    const bgText = {
+        backgroundImage: `url(${bgPhotoText})`
+    }
 
     const portfolioArr = portfolioData.map(i=> {
         return <li className={portfolio.item}>
@@ -54,7 +59,7 @@ export const Portfolio = () => {
 
                 </div>
                 <div>
-                    <ul className={portfolio.list}>
+                    <ul className={portfolio.list} style={bgText}>
                         {portfolioArr}
                     </ul>
                 </div>
