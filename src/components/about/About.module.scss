@@ -1,4 +1,5 @@
 @import "../../style/variable.scss";
+@import "../../style/mixins";
 
 .img {
   border-radius: 10px;
@@ -7,8 +8,7 @@
 }
 
 .wrapper {
-  max-width: 620px;
-  width: 100%;
+  @include width(620px);
   padding: 0 5px;
 }
 
@@ -39,8 +39,7 @@
 }
 
 .box {
-  display: flex;
-  justify-content: space-between;
+  @include flex(space-between);
   margin-bottom: 25px;
 
   @media screen and (max-width: 650px) {
@@ -59,22 +58,16 @@
 }
 
 .social {
-  max-width: 250px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 80px;
+  @include width(250px);
+  @include flex(space-between);
   position: relative;
-  margin-bottom: 40px;
+  margin: 0 0 40px 80px;
 
   &::after {
-    content: '';
+    @include after('', 50%, -80px);
     width: 70px;
     height: 3px;
     background-color: $bg200;
-    position: absolute;
-    top: 50%;
-    left: -80px;
     transform: translateY(-50%);
 
     @media screen and (max-width: 400px) {
@@ -88,17 +81,15 @@
 }
 
 .block {
+  @include width(350px);
   text-align: center;
   margin: 0 auto 50px auto;
-  max-width: 350px;
-  width: 100%;
 }
 
 .box_educ {
+  @include width(400px);
   border: 1px solid $mainColor;
   padding: 25px 20px;
-  max-width: 400px;
-  width: 100%;
   font-size: 16px;
   margin-bottom: 20px;
   box-shadow: 0 0 17px 6px $bg900;
@@ -107,22 +98,14 @@
   background-color: $bg500;
 
   &::before {
-    //content: url(/src/images/boolmark.png);            //when file type is css
-    content: url(/images/boolmark.png);
-    position: absolute;
-    top: 0;
-    left: 18px;
+    @include after($bookMark, 0, 18px);
   }
 
   &::after {
-    content: '';
-    position: absolute;
-    max-width: 400px;
-    width: 100%;
+    @include after('', 0, -7px);
+    @include width(400px);
     height: 102%;
     background-color: $mainColor;
-    top: 0;
-    left: -7px;
     z-index: -1;
     border-radius: 5px;
   }
@@ -145,19 +128,15 @@
   margin-left: 10px;
 
   &::after {
-    content: '';
-    position: absolute;
+    @include after('', 11px, -10px);
     width: 5px;
     height: 5px;
     background-color: $bg200;
-    left: -10px;
-    top: 11px;
   }
 }
 
 .block_resume {
-  display: flex;
-  justify-content: space-between;
+  @include flex(space-between);
 
   @media screen and (max-width: 650px) {
     display: block;
@@ -169,8 +148,7 @@
 }
 
 .download {
-  margin-bottom: 60px;
-  margin-left: 60px;
+  margin: 0 0 60px 60px;
 
   //.download_link
   &_link {
@@ -182,11 +160,7 @@
 
     //.download_link:before
     &::before {
-      //content: url(/src/images/pdf.png);   //when file type is css
-      content: url(/images/pdf.png);
-      position: absolute;
-      top: 50%;
-      left: -60px;
+      @include after($imgPdf, 50%, -60px);
       transform: translateY(-50%);
     }
   }

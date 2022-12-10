@@ -1,13 +1,13 @@
 @import "./style/variable";
+@import "./style/mixins";
 
 .wrapper {
+  @include width(900px);
   position: relative;
   z-index: 5;
   top: 70px;
   border: 1px solid $mainColor;
   box-shadow: 0 0 12px 2px $mainColor;
-  max-width: 900px;
-  width: 100%;
   margin: 0 auto 150px auto;
   background-color: $bg500;
   border-radius: 20px;
@@ -90,13 +90,12 @@
 }
 
 .button {
+  @include width(150px);
   padding: 10px;
   border: 2px solid transparent;
   cursor: pointer;
   background-color: $mainColor;
   border-radius: 5px;
-  max-width: 150px;
-  width: 100%;
   color: $textColor;
   transition: all 0.3s;
   font-size: 15px;

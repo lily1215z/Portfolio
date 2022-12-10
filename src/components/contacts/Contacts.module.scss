@@ -1,13 +1,13 @@
 @import "../../style/variable";
+@import "../../style/mixins";
 
 .title {
     margin-bottom: 50px;
 
     //.title_box
     &_box {
+        @include width(400px);
         text-align: center;
-        max-width: 400px;
-        width: 100%;
         margin: 0 auto;
     }
 
@@ -24,8 +24,7 @@
 }
 
 .block {
-    display: flex;
-    justify-content: space-between;
+    @include flex(space-between);
 
     @media screen and (max-width: 780px) {
         display: block;
@@ -33,8 +32,7 @@
 }
 
 .contact_me {
-    max-width: 550px;
-    width: 100%;
+    @include width(550px);
     padding: 15px;
 
     @media screen and (max-width: 400px) {
@@ -43,8 +41,7 @@
 }
 
 .contact_info {
-    max-width: 400px;
-    width: 100%;
+    @include width(400px);
     padding: 15px;
 
     @media screen and (max-width: 400px) {
@@ -67,8 +64,7 @@
 
     //.input_size
     &_size {
-        max-width: 250px;
-        width: 100%;
+        @include width(250px);
         display: block;
     }
 }
@@ -80,8 +76,7 @@
 }
 
 .inner {
-    display: flex;
-    justify-content: space-between;
+    @include flex(space-between);
     margin-bottom: 30px;
 }
 
@@ -117,42 +112,27 @@
 
     //.item_name:after
     &_name:after {
-        content: url("/images/name.png");
-        position: absolute;
-        top: 9px;
-        left: -50px;
+        @include after($name, 9px, -50px);
     }
 
     //.item_location:after
     &_location:after {
-        content: url("/images/location.png");
-        position: absolute;
-        top: 9px;
-        left: -50px;
+        @include after($location, 9px, -50px);
     }
 
     //.item_relocation:after
     &_relocation:after {
-        content: url("/images/relocation.png");
-        position: absolute;
-        top: 9px;
-        left: -50px;
+        @include after($relocation, 9px, -50px);
     }
 
     //.item_call:after
     &_call:after {
-        content: url("/images/call.png");
-        position: absolute;
-        top: 9px;
-        left: -50px;
+        @include after($call, 9px, -50px);
     }
 
     //.item_email:after
     &_email:after {
-        content: url("/images/letter.png");
-        position: absolute;
-        top: 9px;
-        left: -50px;
+        @include after($letter, 9px, -50px);
     }
 
     //.item + .item
@@ -165,43 +145,18 @@
     margin-bottom: 30px;
 }
 .modal_success {
-    width: 100%;
+    @include modalSuccessError($sendSuccessBg100);
     border: 1px solid $sendSuccess200;
-    color: $textColor;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: $sendSuccessBg100;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    text-align: center;
-    padding: 5px 0;
-    font-weight: 700;
-    z-index: 1;
 }
 .modal_error {
-    width: 100%;
-    color: $textColor;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: $sendError;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    text-align: center;
-    padding: 5px 0;
-    font-weight: 700;
-    z-index: 1;
+    @include modalSuccessError($sendError);
 }
 
 .modal_success,
 .modal_error {
     @media screen and (max-width: 780px) {
         position: fixed;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        @include borderRadius(20px, 20px, 0, 0);
     }
 }
 

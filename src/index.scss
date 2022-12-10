@@ -1,5 +1,6 @@
 @import "sanitize.css";
 @import "./style/variable.scss";
+@import "./style/mixins";
 
 //main style
 body {
@@ -12,9 +13,7 @@ body {
   padding: 0 10px;
 
   &:after {
-    content: '';
-    position: absolute;
-    top: -22px;
+    @include after('', -20px, 2px);
     display: inline-block;
     width: 0;
     height: 0;
@@ -25,10 +24,7 @@ body {
   }
 
   &:before {
-    content: '';
-    left: 0;
-    top: -22px;
-    position: absolute;
+    @include after('', -22px, 0);
     display: inline-block;
     width: 0;
     height: 0;

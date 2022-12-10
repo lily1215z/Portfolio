@@ -1,0 +1,46 @@
+@import "variable";
+
+@mixin width ($maxWidth) {
+  max-width: $maxWidth;
+  width: 100%;
+}
+
+@mixin flex($justifyContent) {
+  display: flex;
+  justify-content: $justifyContent;
+}
+
+@mixin after($icon, $top, $left) {
+  content: url($icon);
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+
+@mixin modalSuccessError($bgColor) {
+  background-color: $bgColor;
+  width: 100%;
+  color: $textColor;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  padding: 5px 0;
+  font-weight: 700;
+  z-index: 1;
+}
+
+@mixin borderRadius($topL, $topR, $bottomR, $bottomL) {
+  border-top-left-radius: $topL;
+  border-top-right-radius: $topR;
+  border-bottom-right-radius: $bottomR;
+  border-bottom-left-radius: $bottomL;
+}
+
+@mixin bg($bgSize, $bgPosition) {
+  background-size: $bgSize;
+  background-repeat: no-repeat;
+  background-position: $bgPosition;
+}

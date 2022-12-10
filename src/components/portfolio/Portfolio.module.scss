@@ -1,4 +1,5 @@
 @import "../../style/variable.scss";
+@import "../../style/mixins";
 
 .wrapper {
   padding-bottom: 60px;
@@ -9,13 +10,10 @@
 }
 
 .list {
-  display: flex;
+  @include flex(space-around);
   flex-wrap: wrap;
-  justify-content: space-around;
+  @include bg(contain, top center);
   background-image: url(/images/portfolio1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top center;
 
   @media screen and (max-width: 780px) {
     display: block;
@@ -27,9 +25,8 @@
 }
 
 .item {
+  @include width(200px);
   height: 250px;
-  max-width: 200px;
-  width: 100%;
   position: relative;
   top: 100px;
   background-color: $mainColorOpacity;
@@ -51,14 +48,12 @@
 }
 
 .link {
-  max-width: 200px;
-  width: 100%;
+  @include width(200px);
+  @include flex(center);
+  align-items: center;
   height: 200px;
   background-color: $bg500;
   box-shadow: inset 2px 2px 24px 4px $bg900;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
   left: 30px;
   bottom: -15px;
