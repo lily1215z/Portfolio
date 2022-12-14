@@ -16,9 +16,7 @@
   @include flex(space-between);
 
   @media screen and (max-width: 650px) {
-    .wrapper {
       display: block;
-    }
   }
 }
 

@@ -42,12 +42,16 @@
   @include flex(space-between);
   margin-bottom: 25px;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 830px) {
     display: block;
   }
 }
 
 .list {
+  @media screen and (max-width: 830px) {
+    margin-bottom: 9px;
+  }
+
   @media screen and (max-width: 650px) {
     margin-bottom: 10px;
   }
