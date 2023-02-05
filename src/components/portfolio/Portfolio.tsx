@@ -22,12 +22,12 @@ export const Portfolio = () => {
             title: 'Robin.W'
         },
         {
-            href: 'https://karolinaesepenok.github.io/cards/#/packs',
-            title: 'Study cards'
+            href: 'https://cards-for-learn-ah6dahek2-morozovaan.vercel.app/log-in',
+            title: 'Cards'
         },
         {
-            href: '',
-            title: 'Other project 1'
+            href: 'https://karolinaesepenok.github.io/cards/#/packs',
+            title: 'Study cards'
         },
         {
             href: '',
