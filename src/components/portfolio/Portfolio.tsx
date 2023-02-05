@@ -22,16 +22,16 @@ export const Portfolio = () => {
             title: 'Robin.W'
         },
         {
+            href: 'https://karolinaesepenok.github.io/cards/#/packs',
+            title: 'Study cards'
+        },
+        {
             href: '',
-            title: 'Other project'
+            title: 'Other project 1'
         },
         {
             href: '',
             title: 'Other project 2'
-        },
-        {
-            href: '',
-            title: 'Other project 3'
         }
     ]
 

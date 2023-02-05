@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="added bg style">
+    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="corrected error in adaptive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,12 @@
       <workItem from="1670687223693" duration="56000" />
       <workItem from="1670687293210" duration="114000" />
       <workItem from="1670763025218" duration="646000" />
-      <workItem from="1671050235501" duration="1615000" />
+      <workItem from="1671050235501" duration="1889000" />
+      <workItem from="1671481385510" duration="948000" />
+      <workItem from="1671810054770" duration="589000" />
+      <workItem from="1671813404852" duration="210000" />
+      <workItem from="1673792413223" duration="1946000" />
+      <workItem from="1675014683387" duration="1979000" />
     </task>
     <task id="LOCAL-00001" summary="added btn_back">
       <created>1666370033394</created>
@@ -218,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670687305230</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="corrected error in adaptive">
+      <created>1671051988618</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671051988618</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +256,7 @@
     <MESSAGE value="added scss (variables)" />
     <MESSAGE value="added scss (mixins)" />
     <MESSAGE value="added bg style" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bg style" />
+    <MESSAGE value="corrected error in adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected error in adaptive" />
   </component>
 </project>

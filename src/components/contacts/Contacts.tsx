@@ -20,10 +20,8 @@ export const Contacts = () => {
 
         emailjs.sendForm('service_4rckvrl', 'template_alqt1da', form.current, '5P2r9ws9F8l4LYYq8')
             .then((result) => {
-                // alert(result.text);
                 setModalSuccess(true)
             }, (error) => {
-                // alert(error.text);
                 setModalError(true)
             });
         e.target.reset()
@@ -33,8 +31,6 @@ export const Contacts = () => {
         setModalSuccess(false)
         setModalError(false)
     }, 4000);
-
-    // const emailRegex = /\w+@\w+\.\w+/;
 
     return (
         <>
