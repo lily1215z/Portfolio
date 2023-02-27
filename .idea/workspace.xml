@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="add cv with link">
+    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="add link from vecsel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +124,10 @@
       <workItem from="1675014683387" duration="1979000" />
       <workItem from="1675614238652" duration="1549000" />
       <workItem from="1675628347841" duration="185000" />
+      <workItem from="1675628552947" duration="646000" />
+      <workItem from="1675631488806" duration="8000" />
+      <workItem from="1675711803964" duration="1566000" />
+      <workItem from="1677442178124" duration="2578000" />
     </task>
     <task id="LOCAL-00001" summary="added btn_back">
       <created>1666370033394</created>
@@ -252,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675615335626</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add link from vecsel">
+      <created>1675628595918</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675628595918</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +292,7 @@
     <MESSAGE value="corrected error in adaptive" />
     <MESSAGE value="add project Cars" />
     <MESSAGE value="add cv with link" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cv with link" />
+    <MESSAGE value="add link from vecsel" />
+    <option name="LAST_COMMIT_MESSAGE" value="add link from vecsel" />
   </component>
 </project>
