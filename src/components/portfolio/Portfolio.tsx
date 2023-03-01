@@ -27,7 +27,7 @@ export const Portfolio = () => {
         },
         {
             href: '',
-            title: 'other project 2'
+            title: 'other project 1'
         },
         {
             href: '',
