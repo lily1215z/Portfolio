@@ -26,8 +26,8 @@ export const Portfolio = () => {
             title: 'Cards'
         },
         {
-            href: 'https://karolinaesepenok.github.io/cards/#/packs',
-            title: 'Study cards'
+            href: '',
+            title: 'other project 2'
         },
         {
             href: '',
@@ -39,11 +39,12 @@ export const Portfolio = () => {
         backgroundImage: `url(${bgPhotoText})`
     }
 
-    const portfolioArr = portfolioData.map(i=> {
-        return <li className={portfolio.item}>
-            <a className={portfolio.link} href={i.href}
-               target={'_blank'}>{i.title}</a>
-        </li>
+    const portfolioArr = portfolioData.map(i => {
+        return (
+            <li className={portfolio.item}>
+                <a className={portfolio.link} href={i.href}
+                   target={'_blank'}>{i.title}</a>
+            </li>)
     })
 
     return (

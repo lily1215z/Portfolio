@@ -32,21 +32,52 @@ export const Contacts = () => {
         setModalError(false)
     }, 4000);
 
+    const dataContacts = [
+        {
+            name: 'Mysliatska Svitlana',
+            title: 'Name',
+            className: 'contacts.item_name'
+        },
+        {
+            name: '13002, Calle Antonio Blazquez, Ciudad Real, Spain',
+            title: 'Location',
+            className: 'contacts.item_location'
+        },
+        {
+            name: 'Barcelona, Spain',
+            title: 'Relocation in',
+            className: 'contacts.item_relocation'
+        },
+        {
+            name: '+34 624 89 10 54',
+            title: 'Call me',
+            className: 'contacts.item_call'
+        },
+        {
+            name: 'svtlnlily@gmail.com',
+            title: 'Email me',
+            className: 'contacts.item_email'
+        }
+    ]
+
     return (
         <>
             {modalSuccess && <div className={contacts.modal_success}>{'Your message has been successfully sent!'}</div>}
             {modalError && <div className={contacts.modal_error}>{'something went wrong. :(('}</div>}
+
             <div className={contacts.title_box}>
                 <span className={home.text}>Feel Free To Contact Me Anytimes</span>
                 <JackInTheBox>
                     <h2 className={`${app.title} ${contacts.title}`}>My<span className={about.style_text}> Contacts</span>
                     </h2>
                 </JackInTheBox>
-
             </div>
+
             <div className={contacts.block}>
                 <div className={contacts.contact_me}>
+
                     <h3 className={contacts.subtitle}>Contact Me</h3>
+
                     <form ref={form} onSubmit={sendEmail}>
                         <div className={contacts.inner}>
                             <input
@@ -54,7 +85,7 @@ export const Contacts = () => {
                                 className={`${contacts.input} ${contacts.input_size}`}
                                 placeholder={'Name'}
                                 required/>
-                            {/*{ /\w+@\w+\.\w+/.test(regex) ? 'error' : '' }*/}
+
                             <input
                                 type='email'
                                 name={'email'}
@@ -64,16 +95,19 @@ export const Contacts = () => {
                                 placeholder={'Email'}
                                 required/>
                         </div>
+
                         <input
                             name={'subject'}
                             className={`${contacts.input} ${contacts.message}`}
                             placeholder={'Subject'}
                             required/>
+
                         <textarea
                             name={'message'}
                             className={contacts.text}
                             placeholder={'Message'}
                             required></textarea>
+
                         <div className={contacts.btn}>
                             <ButtonUniversal title={'Send Message'} href={'???'}/>
                         </div>
@@ -82,31 +116,20 @@ export const Contacts = () => {
 
                 <div className={contacts.contact_info}>
                     <h3 className={contacts.subtitle}>Contact Info</h3>
+
                     <p className={home.text}>
                         Always available for communication. Do not hesitate to contact me!
                     </p>
+
                     <ul className={contacts.list}>
-                        <li className={`${contacts.item} ${contacts.item_name}`}>
-                            <div className={contacts.title_color}>Name</div>
-                            <div className={about.style_text}>Mysliatska Svitlana</div>
-                        </li>
-                        <li className={`${contacts.item} ${contacts.item_location}`}>
-                            <div className={contacts.title_color}>Location</div>
-                            <div className={about.style_text}>13002, Calle Antonio Blazquez, Ciudad Real, Spain</div>
-                        </li>
-                        <li className={`${contacts.item} ${contacts.item_relocation}`}>
-                            <div className={contacts.title_color}>Relocation in</div>
-                            <div className={about.style_text}>Barcelona, Spain</div>
-                        </li>
-                        <li className={`${contacts.item} ${contacts.item_call}`}>
-                            <div className={contacts.title_color}>Call Me</div>
-                            <div className={about.style_text}>+34 624 89 10 54</div>
-                        </li>
-                        <li className={`${contacts.item} ${contacts.item_email}`}>
-                            <div className={contacts.title_color}>Email Me</div>
-                            <div className={about.style_text}>svtlnlily@gmail.com</div>
-                        </li>
+                        {dataContacts.map(item => {
+                           return <li className={`${contacts.item} ${item.className}`}>
+                                <div className={contacts.title_color}>{item.title}</div>
+                                <div className={about.style_text}>{item.name}</div>
+                            </li>
+                        })}
                     </ul>
+
                     <div className={about.social}>
                         <SocialSvgComponent/>
                     </div>

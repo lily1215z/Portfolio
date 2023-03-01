@@ -9,15 +9,15 @@ export const Skills = () => {
     const skillsArr = [
         ['JavaScript', '60'],
         ['ECMA Script(es6)', '70'],
-        ['TypeScript', '60'],
-        ['React', '60'],
+        ['TypeScript', '70'],
+        ['React', '75'],
         ['React-router-domV6', '75'],
-        ['Redux', '60'],
+        ['Redux', '75'],
         ['Thunk', '80'],
-        ['Redux ToolKit', '50'],
-        ['Rest API', '40'],
+        ['Redux ToolKit', '70'],
+        ['Rest API', '50'],
         ['AXIOS', '60'],
-        ['GIT', '60'],
+        ['GIT', '80'],
         ['БЭМ', '85'],
         ['HTML5', '85'],
         ['CSS3', '75'],
@@ -25,8 +25,7 @@ export const Skills = () => {
         ['Avocode', '90'],
         ['Photoshop', '80'],
         ['Figma', '80'],
-        ['Storybook', '60'],
-        ['Jira', '85']
+        ['Jira', '85'],
     ]
 
     const mySkills = skillsArr.map((t, i) => {
