@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="fix: delete .map in Contacts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/Resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/cv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/cv.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/camasutra/portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/camasutra/cards-for-learn&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -133,7 +138,8 @@
       <workItem from="1677924791744" duration="698000" />
       <workItem from="1678105395119" duration="599000" />
       <workItem from="1678466337965" duration="1172000" />
-      <workItem from="1678467741091" duration="2413000" />
+      <workItem from="1678467741091" duration="3103000" />
+      <workItem from="1678471715597" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="added btn_back">
       <created>1666370033394</created>
@@ -303,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678469580681</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fix: delete .map in Contacts">
+      <created>1678470779261</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678470779261</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

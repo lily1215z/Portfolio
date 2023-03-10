@@ -90,6 +90,10 @@
   margin: 0 auto 50px auto;
 }
 
+.educBlock {
+  margin-top: 20px;
+}
+
 .box_educ {
   @include width(400px);
   border: 1px solid $mainColor;
@@ -100,6 +104,10 @@
   border-radius: 5px;
   position: relative;
   background-color: $bg500;
+
+  & li + li {
+    margin-top: 18px;
+  }
 
   &::before {
     @include after($bookMark, 0, 18px);

@@ -10,6 +10,10 @@ import bgPhotoText from '../../images/portfolio1.png';
 export const Portfolio = () => {
     const portfolioData = [
         {
+            href: 'https://cards-for-learn-bv1f7geq1-morozovaan.vercel.app/log-in',
+            title: 'Cards'
+        },
+        {
             href: 'https://lily1215z.github.io/completeTodolist/',
             title: 'TodoList'
         },
@@ -20,10 +24,6 @@ export const Portfolio = () => {
         {
             href: 'http://i9574282.beget.tech',
             title: 'Robin.W'
-        },
-        {
-            href: 'https://cards-for-learn-git-dev-morozovaan.vercel.app/log-in',
-            title: 'Cards'
         },
         {
             href: '',
@@ -42,8 +42,7 @@ export const Portfolio = () => {
     const portfolioArr = portfolioData.map(i => {
         return (
             <li className={portfolio.item}>
-                <a className={portfolio.link} href={i.href}
-                   target={'_blank'}>{i.title}</a>
+                <a className={portfolio.link} href={i.href} target={'_blank'}>{i.title}</a>
             </li>)
     })
 

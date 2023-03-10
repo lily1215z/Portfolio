@@ -68,6 +68,8 @@ export const About = () => {
                                         className={about.style_text_white}>Svitlana</span></li>
                                     <li className={home.text}>From : <span className={about.style_text_white}>Ciudad Real, Spain</span>
                                     </li>
+                                    <li className={home.text}>Relocate in : <span className={about.style_text_white}>Barcelona, Spain</span>
+                                    </li>
                                 </ul>
                                 <ul className={about.list}>
                                     <li className={home.text}>E-Mail : <span
