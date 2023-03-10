@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="fix: delete .map in Nav">
+    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="fix: delete .map in Contacts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,7 @@
       <workItem from="1677924791744" duration="698000" />
       <workItem from="1678105395119" duration="599000" />
       <workItem from="1678466337965" duration="1172000" />
-      <workItem from="1678467741091" duration="1601000" />
+      <workItem from="1678467741091" duration="2413000" />
     </task>
     <task id="LOCAL-00001" summary="added btn_back">
       <created>1666370033394</created>
@@ -298,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677702469570</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fix: delete .map in Contacts">
+      <created>1678469580681</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678469580681</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +336,7 @@
     <MESSAGE value="add link from vecsel" />
     <MESSAGE value="fix: add .map" />
     <MESSAGE value="fix: delete .map in Nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: delete .map in Nav" />
+    <MESSAGE value="fix: delete .map in Contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: delete .map in Contacts" />
   </component>
 </project>
