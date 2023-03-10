@@ -31,8 +31,8 @@ export const Home = () => {
                       />
                 </span>
 
-                {/*<span className={home.job}>Web developer</span>*/}
                 <SocialSvgComponent />
+
                 <p className={`${home.text} ${home.text_home}`}>
                     Ambitious and motivated Front-End Developer looking for a
                     job. I prefer to work in a team, because I believe that sharing
@@ -43,8 +43,6 @@ export const Home = () => {
                 <div>
                     <ButtonUniversal title={'Hire Me'} href={'#/contacts'} />
                     <ButtonUniversal title={'About Me'} href={'#/about'} />
-                    {/*<ButtonUniversal title={'About Me'} href={'https://lily1215z.github.io/about'} />*/}
-                    {/*<ButtonUniversal title={'Hire Me'} href={'https://lily1215z.github.io/contacts'} />*/}
 
                 </div>
             </div>

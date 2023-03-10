@@ -27,10 +27,6 @@ function App() {
             <Particle/>
 
             <div className={app.wrapper}>
-                <Hinge>
-                    <h1 className={app.wrapper_hide}></h1>
-                    {/*<h1 className={app.title}>Mysliatska Svitlana</h1>*/}
-                </Hinge>
 
                 <a href="#" onClick={goBack} className={app.btn_back}>
                     <img src={btn_back} alt={'btn back'}/>
