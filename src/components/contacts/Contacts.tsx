@@ -32,34 +32,6 @@ export const Contacts = () => {
         setModalError(false)
     }, 4000);
 
-    const dataContacts = [
-        {
-            name: 'Mysliatska Svitlana',
-            title: 'Name',
-            className: 'contacts.item_name'
-        },
-        {
-            name: '13002, Calle Antonio Blazquez, Ciudad Real, Spain',
-            title: 'Location',
-            className: 'contacts.item_location'
-        },
-        {
-            name: 'Barcelona, Spain',
-            title: 'Relocation in',
-            className: 'contacts.item_relocation'
-        },
-        {
-            name: '+34 624 89 10 54',
-            title: 'Call me',
-            className: 'contacts.item_call'
-        },
-        {
-            name: 'svtlnlily@gmail.com',
-            title: 'Email me',
-            className: 'contacts.item_email'
-        }
-    ]
-
     return (
         <>
             {modalSuccess && <div className={contacts.modal_success}>{'Your message has been successfully sent!'}</div>}
@@ -68,7 +40,8 @@ export const Contacts = () => {
             <div className={contacts.title_box}>
                 <span className={home.text}>Feel Free To Contact Me Anytimes</span>
                 <JackInTheBox>
-                    <h2 className={`${app.title} ${contacts.title}`}>My<span className={about.style_text}> Contacts</span>
+                    <h2 className={`${app.title} ${contacts.title}`}>My<span
+                        className={about.style_text}> Contacts</span>
                     </h2>
                 </JackInTheBox>
             </div>
@@ -87,7 +60,7 @@ export const Contacts = () => {
                                 required/>
 
                             <input
-                                type='email'
+                                type="email"
                                 name={'email'}
                                 className={`${contacts.input} ${contacts.input_size}`}
                                 onChange={(e) => setRegex(e.currentTarget.value)}
@@ -122,12 +95,31 @@ export const Contacts = () => {
                     </p>
 
                     <ul className={contacts.list}>
-                        {dataContacts.map(item => {
-                           return <li className={`${contacts.item} ${item.className}`}>
-                                <div className={contacts.title_color}>{item.title}</div>
-                                <div className={about.style_text}>{item.name}</div>
-                            </li>
-                        })}
+                        <li className={`${contacts.item} ${contacts.item_name}`}>
+                            <div className={contacts.title_color}>Name</div>
+                            <div className={about.style_text}>Mysliatska Svitlana</div>
+                        </li>
+
+                        <li className={`${contacts.item} ${contacts.item_location}`}>
+                            <div className={contacts.title_color}>Location</div>
+                            <div className={about.style_text}>13002, Calle Antonio Blazquez, Ciudad Real, Spain</div>
+                        </li>
+
+                        <li className={`${contacts.item} ${contacts.item_relocation}`}>
+                            <div className={contacts.title_color}>Relocation in</div>
+                            <div className={about.style_text}>Barcelona, Spain</div>
+                        </li>
+
+                        <li className={`${contacts.item} ${contacts.item_call}`}>
+                            <div className={contacts.title_color}>Call Me</div>
+                            <div className={about.style_text}>+34 624 89 10 54</div>
+                        </li>
+
+                        <li className={`${contacts.item} ${contacts.item_email}`}>
+                            <div className={contacts.title_color}>Email Me</div>
+                            <div className={about.style_text}>svtlnlily@gmail.com</div>
+                        </li>
+
                     </ul>
 
                     <div className={about.social}>

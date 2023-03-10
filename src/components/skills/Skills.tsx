@@ -20,12 +20,13 @@ export const Skills = () => {
         ['GIT', '80'],
         ['БЭМ', '85'],
         ['HTML5', '85'],
-        ['CSS3', '75'],
-        ['SCSS', '80'],
+        ['CSS3/SCSS', '80'],
         ['Avocode', '90'],
         ['Photoshop', '80'],
         ['Figma', '80'],
         ['Jira', '85'],
+        ['Formik', '80'],
+        ['module CSS', '80'],
     ]
 
     const mySkills = skillsArr.map((t, i) => {
