@@ -101,12 +101,12 @@ export const Contacts = () => {
                         </li>
 
                         <li className={`${contacts.item} ${contacts.item_location}`}>
-                            <div className={contacts.title_color}>Location</div>
+                            <div className={contacts.title_color}>Located at</div>
                             <div className={about.style_text}>13002, Calle Antonio Blazquez, Ciudad Real, Spain</div>
                         </li>
 
                         <li className={`${contacts.item} ${contacts.item_relocation}`}>
-                            <div className={contacts.title_color}>Relocation in</div>
+                            <div className={contacts.title_color}>Relocation to</div>
                             <div className={about.style_text}>Barcelona, Spain</div>
                         </li>
 
