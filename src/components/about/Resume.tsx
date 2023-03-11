@@ -13,8 +13,8 @@ export const Resume = () => {
                     <h3 className={app.title}>My <span className={about.style_text}>Resume</span>
                     </h3>
                 </JackInTheBox>
-
             </div>
+
             <div className={about.block_resume}>
                 <div>
                     <div className={about.box_educ}>
@@ -34,6 +34,7 @@ export const Resume = () => {
                             <span className={about.style_text_white}>Speciality:  merchandiser and commercial activities / 2002 – 2004</span>
                         </div>
                     </div>
+
                     <ul className={about.box_educ}>
                         <li className={about.title_educ}>Additional education</li>
                         <li className={`${about.style_text} ${about.title_educ_bulit}`}>Advertising design, Adobe
@@ -58,6 +59,7 @@ export const Resume = () => {
 
                 <div>
                     <h4 className={`${about.title_educ} ${about.experience}`}>Experience</h4>
+
                     <div className={about.box_educ}>
                         <div className={`${about.style_text} ${about.title_educ_bulit}`}>Todolist</div>
                         <div className={about.style_text_white}>Jan 2022 - Apr 2022</div>

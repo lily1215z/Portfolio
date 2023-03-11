@@ -40,11 +40,10 @@ export const Home = () => {
                     increase my professional growth. In addition, in my spare
                     time I learn English and Spanish to reach the highest level.
                 </p>
-                <div>
 
+                <div>
                     <ButtonUniversal title={'Hire Me'} href={'#/contacts'} />
                     <ButtonUniversal title={'About Me'} href={'#/about'} />
-
                 </div>
             </div>
         </div>

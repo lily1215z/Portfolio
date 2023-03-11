@@ -50,14 +50,16 @@ export const Portfolio = () => {
         <>
             <div className={portfolio.wrapper}>
                 <div className={contacts.title_box}>
+
                     <span className={home.text}>Showcasing Some Of My Work</span>
+
                     <JackInTheBox>
                         <h2 className={`${app.title} ${contacts.title}`}>My<span
                             className={about.style_text}> Portfolio</span>
                         </h2>
                     </JackInTheBox>
-
                 </div>
+
                 <div>
                     <ul className={portfolio.list} style={bgText}>
                         {portfolioArr}
