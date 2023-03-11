@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="fix: svg, change cv, favicon">
+    <list default="true" id="530574bf-a430-4198-9720-44fd08baf1ec" name="Changes" comment="fix: text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iconSVG/NavSVGSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconSVG/NavSVGSelector.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/variable.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +139,8 @@
       <workItem from="1678467741091" duration="3103000" />
       <workItem from="1678471715597" duration="13000" />
       <workItem from="1678526362103" duration="2587000" />
-      <workItem from="1678537024909" duration="315000" />
+      <workItem from="1678537024909" duration="1613000" />
+      <workItem from="1678541275129" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="added btn_back">
       <created>1666370033394</created>
@@ -342,7 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678529133758</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix: text">
+      <created>1678537387388</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678537387388</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix: text">
+      <created>1678537977247</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678537977247</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,6 +396,7 @@
     <MESSAGE value="fix: add CV, expirience," />
     <MESSAGE value="fix: delete animation" />
     <MESSAGE value="fix: svg, change cv, favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: svg, change cv, favicon" />
+    <MESSAGE value="fix: text" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: text" />
   </component>
 </project>
