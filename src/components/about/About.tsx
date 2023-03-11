@@ -76,7 +76,7 @@ export const About = () => {
                                         className={about.style_text}>svtlnlily@gmail.com</span></li>
                                     <li className={home.text}>Phone : <span className={about.style_text}>(+34) 624-89-10-54</span>
                                     </li>
-                                    <li className={home.text}>Languages : <span className={about.style_text_white}>English, Ukrainian, Russian, Spain</span>
+                                    <li className={home.text}>Languages : <span className={about.style_text_white}>English, Ukrainian, Russian, Spanish</span>
                                     </li>
                                 </ul>
                             </div>
@@ -88,7 +88,7 @@ export const About = () => {
                             {/*    /!*<a href={cv} download="lana_cv">Download my CV</a>*!/*/}
                             {/*</button>*/}
                             <div className={about.download}>
-                                <a className={about.download_link} href={cv} download="lana_cv">Download my CV</a>
+                                <a className={about.download_link} href={cv} target={'_blank'} download="lana_cv">Download my CV</a>
                             </div>
 
                         </div>

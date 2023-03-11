@@ -29,6 +29,7 @@ export const Nav = () => {
                         </div>
                     </NavLink>
                 </li>
+
                 <li className={nav.item}>
                     <span className={nav.text_hover}>About</span>
                     <NavLink to='/about' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
@@ -37,6 +38,7 @@ export const Nav = () => {
                         </div>
                     </NavLink>
                 </li>
+
                 <li className={nav.item}>
                     <span className={nav.text_hover}>Skills</span>
                     <NavLink to='/skills' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
@@ -45,6 +47,7 @@ export const Nav = () => {
                         </div>
                     </NavLink>
                 </li>
+
                 <li className={nav.item}>
                     <span className={nav.text_hover}>Portfolio</span>
                     <NavLink to='/portfolio' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
@@ -53,6 +56,7 @@ export const Nav = () => {
                         </div>
                     </NavLink>
                 </li>
+
                 <li className={nav.item}>
                     <span className={nav.text_hover}>Contacts</span>
                     <NavLink to='/contacts' style={({isActive}) => ({stroke: isActive ? color.color : ''})}>
