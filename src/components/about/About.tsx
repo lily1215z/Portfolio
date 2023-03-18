@@ -32,7 +32,7 @@ export const About = () => {
 
                     <div>
                         <span className={about.name}>Who Am <span className={about.style_text}> I ?</span></span>
-                        <h3 className={about.name}>I'm Mysliatska Svitlana, A <span className={about.style_text}>Front-End Developer</span>
+                        <h3 className={about.name}>I'm Svitlana Mysliatska, A <span className={about.style_text}>Front-End Developer</span>
                         </h3>
 
                         <p className={home.text}>
