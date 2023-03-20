@@ -32,7 +32,7 @@ export const About = () => {
 
                     <div>
                         <span className={about.name}>Who Am <span className={about.style_text}> I ?</span></span>
-                        <h3 className={about.name}>I'm Svitlana Mysliatska, A <span className={about.style_text}>Front-End Developer</span>
+                        <h3 className={about.name}>I'm Mysliatska Lana, A <span className={about.style_text}>Front-End Developer</span>
                         </h3>
 
                         <p className={home.text}>
@@ -50,7 +50,7 @@ export const About = () => {
                             <div className={about.box}>
                                 <ul className={about.list}>
                                     <li className={home.text}>First Name : <span
-                                        className={about.style_text_white}>Svitlana</span></li>
+                                        className={about.style_text_white}>Lana</span></li>
                                     <li className={home.text}>Last Name : <span
                                         className={about.style_text_white}>Mysliatska</span></li>
                                     <li className={home.text}>Located at : <span className={about.style_text_white}>Ciudad Real, Spain</span>

@@ -22,7 +22,7 @@ export const Home = () => {
             <div className={home.inner}>
                 <span className={home.text}>Get To Know Me</span>
                 <JackInTheBox>
-                    <h1 className={app.title}>SvitLana Mysliatska</h1>
+                    <h1 className={app.title}>Lana Mysliatska</h1>
                 </JackInTheBox>
 
                 <span className={home.job}>

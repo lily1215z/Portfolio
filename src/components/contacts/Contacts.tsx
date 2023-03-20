@@ -97,7 +97,7 @@ export const Contacts = () => {
                     <ul className={contacts.list}>
                         <li className={`${contacts.item} ${contacts.item_name}`}>
                             <div className={contacts.title_color}>Name</div>
-                            <div className={about.style_text}>Svitlana Mysliatska</div>
+                            <div className={about.style_text}>Mysliatska Lana</div>
                         </li>
 
                         <li className={`${contacts.item} ${contacts.item_location}`}>
