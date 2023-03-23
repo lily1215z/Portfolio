@@ -10,7 +10,7 @@ import bgPhotoText from '../../images/portfolio1.png';
 export const Portfolio = () => {
     const portfolioData = [
         {
-            href: 'https://cards-for-learn-hygqj3ki5-morozovaan.vercel.app/log-in',
+            href: 'https://cards-for-learn-azqqkhqpw-morozovaan.vercel.app',
             title: 'Cards'
         },
         {
